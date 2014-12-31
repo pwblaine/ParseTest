@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 #import <Parse/Parse.h>
-#import "../Credentials-Sample"
+#import "../Credentials"
 
 @interface AppDelegate ()
 
