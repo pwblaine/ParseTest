@@ -534,6 +534,7 @@
 				28B7E7961A54A174006D2575 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28B7E7971A54A174006D2575 /* Build configuration list for PBXNativeTarget "ParseTestTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +543,7 @@
 				28B7E7991A54A174006D2575 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
