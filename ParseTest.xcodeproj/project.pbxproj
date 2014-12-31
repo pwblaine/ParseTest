@@ -39,8 +39,6 @@
 		28B7E7C81A54A2DF006D2575 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B7E7B91A54A2DF006D2575 /* UIKit.framework */; };
 		28B7E7D51A54AE0D006D2575 /* Credentials-Sample in Resources */ = {isa = PBXBuildFile; fileRef = 28B7E7D31A54AE0D006D2575 /* Credentials-Sample */; };
 		28B7E7D71A54AF7B006D2575 /* Credentials in Resources */ = {isa = PBXBuildFile; fileRef = 28B7E7D61A54AF7B006D2575 /* Credentials */; };
-		28B7E7DA1A54B132006D2575 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B7E7D81A54B132006D2575 /* FacebookSDK.framework */; };
-		28B7E7DB1A54B132006D2575 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B7E7D91A54B132006D2575 /* FBAudienceNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,8 +91,6 @@
 		28B7E7CB1A54A985006D2575 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
 		28B7E7D31A54AE0D006D2575 /* Credentials-Sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Credentials-Sample"; path = "../Credentials-Sample"; sourceTree = "<group>"; };
 		28B7E7D61A54AF7B006D2575 /* Credentials */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Credentials; sourceTree = SOURCE_ROOT; };
-		28B7E7D81A54B132006D2575 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
-		28B7E7D91A54B132006D2575 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +103,6 @@
 				28B7E7BC1A54A2DF006D2575 /* Accounts.framework in Frameworks */,
 				28B7E7BD1A54A2DF006D2575 /* CFNetwork.framework in Frameworks */,
 				28B7E7BE1A54A2DF006D2575 /* CoreGraphics.framework in Frameworks */,
-				28B7E7DA1A54B132006D2575 /* FacebookSDK.framework in Frameworks */,
 				28B7E7BF1A54A2DF006D2575 /* CoreLocation.framework in Frameworks */,
 				28B7E7C01A54A2DF006D2575 /* Foundation.framework in Frameworks */,
 				28B7E7C11A54A2DF006D2575 /* libz.1.1.3.dylib in Frameworks */,
@@ -115,7 +110,6 @@
 				28B7E7C31A54A2DF006D2575 /* MobileCoreServices.framework in Frameworks */,
 				28B7E7C41A54A2DF006D2575 /* QuartzCore.framework in Frameworks */,
 				28B7E7C51A54A2DF006D2575 /* Security.framework in Frameworks */,
-				28B7E7DB1A54B132006D2575 /* FBAudienceNetwork.framework in Frameworks */,
 				28B7E7C61A54A2DF006D2575 /* StoreKit.framework in Frameworks */,
 				28B7E7C71A54A2DF006D2575 /* SystemConfiguration.framework in Frameworks */,
 				28B7E7C81A54A2DF006D2575 /* UIKit.framework in Frameworks */,
@@ -206,8 +200,6 @@
 		28B7E79A1A54A181006D2575 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				28B7E7D81A54B132006D2575 /* FacebookSDK.framework */,
-				28B7E7D91A54B132006D2575 /* FBAudienceNetwork.framework */,
 				28B7E7AB1A54A2DE006D2575 /* AdSupport.framework */,
 				28B7E7AC1A54A2DF006D2575 /* Social.framework */,
 				28B7E7AD1A54A2DF006D2575 /* Accounts.framework */,
@@ -467,7 +459,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/patrickblaine/Documents/Workspace/Repositories/ParseStarterProject,
-					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = ParseTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -483,7 +474,6 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/patrickblaine/Documents/Workspace/Repositories/ParseStarterProject,
-					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = ParseTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
