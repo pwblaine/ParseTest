@@ -37,7 +37,7 @@
 		28B7E7C61A54A2DF006D2575 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B7E7B71A54A2DF006D2575 /* StoreKit.framework */; };
 		28B7E7C71A54A2DF006D2575 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B7E7B81A54A2DF006D2575 /* SystemConfiguration.framework */; };
 		28B7E7C81A54A2DF006D2575 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28B7E7B91A54A2DF006D2575 /* UIKit.framework */; };
-		28B7E7D11A54AD3A006D2575 /* Credentials-Sample in Resources */ = {isa = PBXBuildFile; fileRef = 28B7E7D01A54AD3A006D2575 /* Credentials-Sample */; };
+		28B7E7D51A54AE0D006D2575 /* Credentials-Sample in Resources */ = {isa = PBXBuildFile; fileRef = 28B7E7D31A54AE0D006D2575 /* Credentials-Sample */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,7 +88,7 @@
 		28B7E7B81A54A2DF006D2575 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		28B7E7B91A54A2DF006D2575 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		28B7E7CB1A54A985006D2575 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
-		28B7E7D01A54AD3A006D2575 /* Credentials-Sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Credentials-Sample"; sourceTree = "<group>"; };
+		28B7E7D31A54AE0D006D2575 /* Credentials-Sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Credentials-Sample"; path = "../Credentials-Sample"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +135,6 @@
 		28B7E7681A54A174006D2575 = {
 			isa = PBXGroup;
 			children = (
-				28B7E7D01A54AD3A006D2575 /* Credentials-Sample */,
 				28B7E7731A54A174006D2575 /* ParseTest */,
 				28B7E78D1A54A174006D2575 /* ParseTestTests */,
 				28B7E7721A54A174006D2575 /* Products */,
@@ -170,6 +169,7 @@
 		28B7E7741A54A174006D2575 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				28B7E7D31A54AE0D006D2575 /* Credentials-Sample */,
 				28B7E7CB1A54A985006D2575 /* PrefixHeader.pch */,
 				28B7E7751A54A174006D2575 /* Info.plist */,
 				28B7E7761A54A174006D2575 /* main.m */,
@@ -305,9 +305,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				28B7E7801A54A174006D2575 /* Main.storyboard in Resources */,
+				28B7E7D51A54AE0D006D2575 /* Credentials-Sample in Resources */,
 				28B7E7851A54A174006D2575 /* LaunchScreen.xib in Resources */,
 				28B7E7821A54A174006D2575 /* Images.xcassets in Resources */,
-				28B7E7D11A54AD3A006D2575 /* Credentials-Sample in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
